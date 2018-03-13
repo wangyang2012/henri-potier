@@ -1,0 +1,6 @@
+<h1>List of books</h1>
+<mat-grid-list cols="4">
+  <mat-grid-tile *ngFor="let book of bookList">
+    <app-book [book]="book"></app-book>
+  </mat-grid-tile>
+</mat-grid-list>
